@@ -1,4 +1,4 @@
-function scuberGreetingForFeet(ride){
+function scuberGreetingForFeet(ride){   //if else if statement
   if(ride < 400){
     return 'This one is on me!';
   }
@@ -16,7 +16,7 @@ function ternaryCheckCity(city){
 }
 
 function switchOnCharmFromTip(tip){
-  switch(tip){
+  switch(tip){                              // switch case within a function
     case 'generous':
       return "Thank you so much."
       break
